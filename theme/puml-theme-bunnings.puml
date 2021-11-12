@@ -1,0 +1,48 @@
+!$theme = "bunnings"
+
+'' Bunnings Defined Colours
+!$BBeige = "#EEE7D8"
+!$BBlue = "#007AC9"
+!$BGreen = "#0D5257"
+!$BRed = "#DA291C"
+!$BYellow = "#F0AB00"
+
+<style>
+root {   
+}
+</style>
+
+skinparam {
+    DefaultTextAlignment center
+    Shadowing true
+}
+
+skinparam SequenceArrow {
+    Color Black
+    Bordercolor Black
+}
+
+skinparam SequenceActor {
+    BackgroundColor $BRed
+    BorderColor $BGreen
+}
+
+skinparam SequenceNote {
+    BorderColor Black
+    BackgroundColor #EEE7D8
+}
+
+skinparam SequenceParticipant {
+    BackgroundColor $BGreen
+    FontColor White
+    BorderColor $BGreen
+}
+
+skinparam SequenceGroup {
+    BackgroundColor $BBeige
+}
+
+skinparam SequenceLifeLine {
+    BackgroundColor $BBeige
+    BorderColor black
+}
