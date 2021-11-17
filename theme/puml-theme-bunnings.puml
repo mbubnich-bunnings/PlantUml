@@ -1,16 +1,17 @@
-!$theme = "bunnings"
+!$theme = "bunnings" 
 
 '' Bunnings Defined Colours
 !$BBeige = "#EEE7D8"
 !$BBlue = "#007AC9"
 !$BGreen = "#0D5257"
 !$BRed = "#DA291C"
-!$BYellow = "#F0AB00"
+!$BYellow = "#F0AB80"
 
 <style>
 root {   
 }
 </style>
+
 
 skinparam {
     DefaultTextAlignment center
@@ -22,14 +23,15 @@ skinparam SequenceArrow {
     Bordercolor Black
 }
 
+skinparam actorStyle awesome
 skinparam SequenceActor {
-    BackgroundColor $BRed
+    BackgroundColor $BBeige
     BorderColor $BGreen
 }
 
-skinparam SequenceNote {
-    BorderColor Black
-    BackgroundColor #EEE7D8
+skinparam Note {
+    BorderColor $BRed
+    BackgroundColor $BBeige
 }
 
 skinparam SequenceParticipant {
