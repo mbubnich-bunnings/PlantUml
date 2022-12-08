@@ -1,11 +1,35 @@
 !$theme = "bunnings" 
 
 '' Bunnings Defined Colours
+'' Beige
 !$BBeige = "#EEE7D8"
+!$BBeige75 = "#F2EDE2"
+!$BBeige50 = "#F6F3EC"
+!$BBeige25 = "#FBF9F5"
+
+'' Blue
 !$BBlue = "#007AC9"
+!$BBlue75 = "#409BD7"
+!$BBlue50 = "#80BDE4"
+!$BBlue25 = "#BFDEF2"
+
+'' Green
 !$BGreen = "#0D5257"
+!$BGreen75 = "#4A7D81"
+!$BGreen50 = "#86A9AB"
+!$BGreen25 = "#C3D4D5"
+
+'' Red
 !$BRed = "#DA291C"
-!$BYellow = "#F0AB80"
+!$BRed75 = "#E35F55"
+!$BRed50 = "#ED948E"
+!$BRed25 = "#F6CAC6"
+
+'' Yellow
+!$BYellow = "#F0AB00"
+!$BYellow75 = "#F4C040"
+!$BYellow50 = "#F7D580"
+!$BYellow25 = "#FBEABF"
 
 <style>
 root {   
@@ -48,3 +72,6 @@ skinparam SequenceLifeLine {
     BackgroundColor $BBeige
     BorderColor black
 }
+
+skinparam BoxPadding 5
+skinparam ParticipantPadding 5
